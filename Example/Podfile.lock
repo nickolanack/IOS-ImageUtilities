@@ -1,0 +1,14 @@
+PODS:
+  - ImageUtilities (0.1.0)
+
+DEPENDENCIES:
+  - ImageUtilities (from `../`)
+
+EXTERNAL SOURCES:
+  ImageUtilities:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ImageUtilities: dae6fbbcd361d2dcc62a83f3794eb33b99a99eeb
+
+COCOAPODS: 0.39.0
