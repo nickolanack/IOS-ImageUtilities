@@ -36,4 +36,6 @@
 +(UIImage *)CropImage:(UIImage *)image rect:(CGRect)rect;
 +(void)CachedImageFromUrl:(NSString *)url defaultImage:(UIImage *)defaultImage completion: (void (^)(UIImage *))block;
 
++(UIImage*)ImageByRotatingImage:(UIImage*)initImage fromImageOrientation:(UIImageOrientation)orientation;
+
 @end
