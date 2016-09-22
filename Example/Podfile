@@ -1,8 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
+
+project 'ImageUtilities'
 use_frameworks!
 
 
-target 'ImageUtilities_Tests', :exclusive => true do
+target 'ImageUtilities_Tests' do
   pod "ImageUtilities", :path => "../"
 
   
